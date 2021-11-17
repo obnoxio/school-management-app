@@ -35,6 +35,10 @@ nav {
   .logo font {
     color: #fff;
   }
+  .logo font:hover{
+    color: blue;
+
+  }
   
   .menu-list {
     list-style-type: none;

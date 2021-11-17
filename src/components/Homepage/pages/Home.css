@@ -41,9 +41,13 @@
     margin-top: 90px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(241, 226, 226);
+
     
     
 
+}
+.content h1:hover{
+  color: #352f2f;
 }
 .content p{
     margin:30px auto;
@@ -84,4 +88,7 @@ button:hover span{
 }
 button:hover{
     border: none;
+    color: black;
+    font-weight: bold;
+    
 }

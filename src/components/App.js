@@ -6,7 +6,10 @@ import Contactus from "./Homepage/pages/contactus";
 import Aboutus from "./Homepage/pages/Aboutus";
 import Event from "./Homepage/pages/Event";
 import Academic from "./Homepage/pages/Academic";
+
 import "./App.css";
+import Footer from "./Homepage/Footer/footer";
+
 
 
 
@@ -23,7 +26,16 @@ function App() {
           <Route path="/aboutpg" exact component={Aboutus} />
           <Route path="/contactpg" exact component={Contactus} />
         </Switch>
+        
       </Router>
+      
+
+
+      <Footer />
+      
+
+
+        
 
 
     

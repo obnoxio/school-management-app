@@ -13,22 +13,13 @@ function Homepgs() {
           <p>"Education is the most powerful weapon which you can use to change the world"
             <br />
             Education is key of success</p>
-            <div>
-              <button type="button"><span></span>READ MORE</button>
-              <button type="button"><span></span>APPLY NOW</button>
+            <div className="button">
+              <button ><span></span>READ MORE</button>
+              <button ><span></span>APPLY NOW</button>
+              
             </div>
-         
+    
         </div>
-
-
-
-
-
-        
-        
-
-
-
 
       </div>
      
