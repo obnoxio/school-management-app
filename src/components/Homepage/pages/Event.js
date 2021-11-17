@@ -6,8 +6,13 @@ import img1 from '../images/teachers day.jpeg' ;
 import img2 from '../images/childerns day.jpeg' ;
 function Event() {
     return (
-      <div>  <header className="d1"><h1><i>Events & Activities</i></h1></header>
+      <div className='body'>  <header className="d1"><h1><i>Events & Activities</i></h1></header>
       <section className="d2"><h3>We are Greatful to have you at our Website</h3></section>
+          <br />
+          <br />
+          <br />
+          <br />
+      <div classname="container1">
       <div className="card">
         <div className="card_body">
         <img src={school} className="card_image"/>
@@ -16,6 +21,10 @@ function Event() {
         </div>
         <button className="card_button"> Know More  </button>
       </div>
+          <br />
+          <br />
+          <br />
+          <br />
 
       <div className="card">
         <div className="card_body">
@@ -25,6 +34,10 @@ function Event() {
         </div>
         <button className="card_button"> Know More  </button>
       </div>
+          <br />
+          <br />
+          <br />
+          <br />
 
       <div className="card">
         <div className="card_body">
@@ -33,7 +46,11 @@ function Event() {
         <p className="card_discription">  Celebrating events and festivals in schools have become an integral part of learning and building a strong cultural belief in a child.Children will remember an important day only if they are told what the occasion signify, making them aware of the world in a more fun way. </p>
         </div>
         <button className="card_button"> Know More  </button>
-      </div>
+      </div> 
+          <br />
+          <br />
+          <br />
+          <br />
 
       <div className="card">
         <div className="card_body">
@@ -42,6 +59,11 @@ function Event() {
         <p className="card_discription"> We celebrate Children's day in India on 14th of November every year. India's First Prime Minister Pundit Jawaharlal Nehru was born in Allahabad on 14th November 1889. Pt. Jawaharlal Nehru popularly known as Chacha Nehru was very fond of children. His love for Children was immense. </p>
         </div>
         <button className="card_button"> Know More  </button>
+          <br />
+          <br />
+          <br />
+          <br />
+      </div>
       </div>
       </div>
     )

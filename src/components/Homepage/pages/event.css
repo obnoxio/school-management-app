@@ -1,12 +1,5 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin:0;
-    padding: 0;
-    
-}
-body{
+
+.body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin:2rem;
     background-color: snow;
@@ -23,6 +16,9 @@ body{
     transition:transform 200ms ease-in;
     height:420px;
     width: 800px;
+    margin: 0 auto 0 auto;
+    
+    
 }
 .card_button{
     padding: 1rem;
@@ -61,4 +57,10 @@ body{
     margin-top: 90px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(240, 149, 149);
+    text-align: center;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
